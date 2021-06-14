@@ -12,6 +12,9 @@
     "build-views": "dottojs -s ./src -d ./src",
     "prepublish": "yarn run build-views"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": "KevinDanikowski/serve-handler",
   "keywords": [
     "static",
