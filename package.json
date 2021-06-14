@@ -1,5 +1,5 @@
 {
-  "name": "serve-handler",
+  "name": "@kevindanikowski/serve-handler",
   "version": "6.1.3",
   "description": "The routing foundation of `serve` and static deployments on Now",
   "main": "src/index.js",
@@ -12,7 +12,7 @@
     "build-views": "dottojs -s ./src -d ./src",
     "prepublish": "yarn run build-views"
   },
-  "repository": "zeit/serve-handler",
+  "repository": "KevinDanikowski/serve-handler",
   "keywords": [
     "static",
     "deployment",
